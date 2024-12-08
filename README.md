@@ -1,4 +1,7 @@
-# 326 Group Project
+# UMass Buy and Sell
+
+UMass Buy and Sell is a web application that allows students to easily create listings to sell items. Built with JavaScript, HTML/CSS, PouchDB, and Express.js, this full-stack marketplace leverages Google authentication for secure access. The application uses PouchDB to ensure secure, offline-first data storage and features optimized Express.js API endpoints for faster and more efficient data processing. Additionally, Figma mockups were designed to streamline the development process and align the application with user needs.  
+
 
 # Getting Started
 
@@ -71,7 +74,7 @@
 
 - `/api/listings/:id`: Delete a listing
 
-# Using ZooBuy
+# Using UMass Buy and Sell
 
 ## User Base
 
