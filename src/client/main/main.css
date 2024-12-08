@@ -1,0 +1,27 @@
+/* Nav Bar */
+html{
+    background-color: #800000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+#main-page-display{
+  /* background-color: #800000; */
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  padding: 100px;
+  margin: 0px;
+}

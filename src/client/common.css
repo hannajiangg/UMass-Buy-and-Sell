@@ -1,0 +1,55 @@
+/* common.css */
+
+/* Login and Registration */
+.red-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('../assets/zoo_buy_logo.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+.white-box {
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.white-box:hover {
+  border-color: #A52A2A;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
